@@ -40,6 +40,7 @@ def selectToDo():
 def selectListTasks():
     tabControl.select(0)
     createButton["state"] = "normal"
+    listbox2.delete(0,END)
 
 def deleteItem():
     if listbox2.size() == 1:
