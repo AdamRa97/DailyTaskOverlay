@@ -71,6 +71,7 @@ current_value = DoubleVar()
 transLabel = Label(root, text="Transparency", cursor="@aero_arrow.cur")
 transLabel.pack(anchor="w", side="bottom")
 tranSlider = Scale(root, from_=1, to= 10, orient="horizontal", cursor="@aero_arrow.cur", variable=current_value, command=tranSlideVal)
+tranSlider.set(10)
 tranSlider.pack(anchor="w", side="bottom")
 
 scroll_bar= Scrollbar(root, cursor="@aero_arrow.cur")
