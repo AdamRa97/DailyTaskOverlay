@@ -11,4 +11,4 @@ Image background (maybe)
 Use ElectronJS instead of TKinter in the future
 
 
-Version .20 Beta
+Version .3 Alpha
